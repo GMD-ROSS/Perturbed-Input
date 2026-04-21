@@ -6,7 +6,7 @@ The project is structured as a sequence of six self-contained steps, each buildi
 
 **Estimated Total Duration:** 7–8 weeks of core project work (full-time, ~35 hrs/week), leaving time for extensions, real-data validation and implementation in existing models, or a final technical report (which can lead to a full publication).
 
-## Starting
+## Intro
 
 ### Git, GitHub and GitHub Desktop
 
@@ -17,6 +17,18 @@ We'll use Git for basic verstion control. We will mostly be using ```commit```, 
 - [git - the simple guide](https://rogerdudler.github.io/git-guide/)
 - [GitHub Docs - Hello World](https://docs.github.com/en/get-started/start-your-journey/hello-world)
 - [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
+
+### Python
+
+- [Kaggle intro to Python](https://www.kaggle.com/learn/python)
+- []
+- [Intro To Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
+- [An Introduction to Python Package Managers](https://www.jumpingrivers.com/blog/python-package-managers-pip-conda-poetry/)
+- [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install/overview)
+- [Quick Start Guide for Python in VS Code](https://code.visualstudio.com/docs/python/python-quick-start)
+ - [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
+ - [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+ - [Google Colab](https://colab.research.google.com/)
 
 
 
