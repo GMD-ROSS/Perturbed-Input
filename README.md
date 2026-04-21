@@ -21,7 +21,6 @@ We'll use Git for basic verstion control. We will mostly be using ```commit```, 
 ### Python
 
 - [Kaggle intro to Python](https://www.kaggle.com/learn/python)
-- []
 - [Intro To Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 - [An Introduction to Python Package Managers](https://www.jumpingrivers.com/blog/python-package-managers-pip-conda-poetry/)
 - [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install/overview)
