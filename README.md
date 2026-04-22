@@ -1,8 +1,8 @@
 # Perturbed-Input
 
-This project develops a standalone Python module capable of generating **perturbed input time series** for use in ensemble modelling workflows. The approach uses ARIMA modelling to characterize a time series, extracts residual errors, and resamples from those errors to produce statistically consistent perturbations of the original signal.
+This project develops a standalone Python module capable of generating **perturbed input time series** for use in ensemble modelling workflows. The approach uses ARIMA modelling to characterize a time series, extracts residual errors, and resamples from those errors to produce statistically consistent perturbations of the original signal. The project builds off of a recent paper [Perturbed Input Ensemble Modeling With the Space Weather Modeling Framework](https://doi.org/10.1029/2018SW002000) which used perturbed input to drive a global model of magnetospheric and space weather activity. In science ensemble model runs are important as they characterize the uncertainty in models, the variability and sensitivity when model parameters change, and can also help to quantify the liklihood of an event ocurring. See, [The Importance of Ensemble Techniques for Operational Space Weather Forecasting](https://doi.org/10.1029/2018SW001861) for more discussion and examples. 
 
-The project is structured as a sequence of six self-contained steps, each building directly on the last. By the end, we will have a well-documented, tested Python module suitable for inclusion in a larger modelling pipeline.
+This project is structured as a sequence of six self-contained smaller projects, each building directly on the last. By the end, we will have a well-documented, tested Python module suitable for inclusion in a larger modelling pipeline.
 
 **Estimated Total Duration:** 7–8 weeks of core project work (full-time, ~35 hrs/week), leaving time for extensions, real-data validation and implementation in existing models, or a final technical report (which can lead to a full publication).
 
