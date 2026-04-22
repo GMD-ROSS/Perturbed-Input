@@ -22,6 +22,8 @@ We'll use Git for basic verstion control. We will mostly be using ```commit```, 
 
 - [Kaggle intro to Python](https://www.kaggle.com/learn/python)
 - [Intro To Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
+- [Goodard Heliophysics Boot Camp](https://github.com/helio670/bootcamp)
+- [Goddar Heliophysics Data Science](https://github.com/helio670/datascience)
 - [An Introduction to Python Package Managers](https://www.jumpingrivers.com/blog/python-package-managers-pip-conda-poetry/)
 - [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install/overview)
 - [Quick Start Guide for Python in VS Code](https://code.visualstudio.com/docs/python/python-quick-start)
