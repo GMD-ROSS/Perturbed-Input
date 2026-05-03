@@ -1,0 +1,32 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from statsmodels.graphics.tsaplots import plot_acf
+from scipy import stats
+from scipy.stats import norm
+
+def diagnostic_plot(residuals):
+
+    fig, axes = plt.subplots(2,2,figsize=(12,8))
+    
+    axes[0,0].plot(residuals)
+    axes[0,0].set_title("Residual Time Series")
+
+    plot_acf(residuals, ax=axes[0,1])
+    axes[0,1].set_title("ACF of Residuals")
+
+    axes[1,0].hist(residuals, bins= 'auto', density = True, alpha = 0.6 )
+
+    mu = np.mean(residuals)
+    sigma = np.std(residuals)
+
+    x = np.linspace(min(residuals), max(residuals), 100)
+    pdf = norm.pdf(x, mu, sigma)
+
+    axes[1, 0].plot(x, pdf, 'r-', linewidth=2)
+    axes[1, 0].set_title("Histogram with Normal Fit")
+
+    stats.probplot(residuals, dist="norm", plot=axes[1,1])
+    axes[1,1].set_title("Q-Q Plot")
+
+    plt.tight_layout()
+    plt.show()
