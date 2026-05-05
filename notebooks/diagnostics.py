@@ -9,6 +9,7 @@ def diagnostic_plot(residuals):
     fig, axes = plt.subplots(2,2,figsize=(12,8))
     
     axes[0,0].plot(residuals)
+    axes[0,0].tick_params(axis='x', rotation=45)
     axes[0,0].set_title("Residual Time Series")
 
     plot_acf(residuals, ax=axes[0,1])
