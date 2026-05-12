@@ -8,14 +8,14 @@ def diagnostic_plot(residuals):
 
     fig, axes = plt.subplots(2,2,figsize=(12,8))
     
-    axes[0,0].plot(residuals)
+    axes[0,0].plot(residuals, alpha = 0.9)
     axes[0,0].tick_params(axis='x', rotation=45)
     axes[0,0].set_title("Residual Time Series")
 
     plot_acf(residuals, ax=axes[0,1])
     axes[0,1].set_title("ACF of Residuals")
 
-    axes[1,0].hist(residuals, bins= 'auto', density = True, alpha = 0.6 )
+    axes[1,0].hist(residuals, bins= 'auto', density = True, alpha = 0.9)
 
     mu = np.mean(residuals)
     sigma = np.std(residuals)
